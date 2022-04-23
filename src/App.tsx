@@ -1,10 +1,11 @@
 import React from 'react';
+import Search from './components/search'
 
 function App() {
   return (
-    <p>
-      Edit <code>src/App.tsx</code> and save to reload.
-    </p>
+    <div className="container mx-auto max-w-3xl py-20">
+      <Search />
+    </div>
   );
 }
 
